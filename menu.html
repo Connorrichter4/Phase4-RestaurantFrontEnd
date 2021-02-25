@@ -12,9 +12,38 @@
 
 
     <style>
+
+        .chef-special {
+            margin: 0 1rem;
+        }
+
         .menu-container{
-            border: solid red;
+            padding: 1rem;
             display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+            grid-gap: 1rem;
+        }
+
+        .menu-item{
+            border: solid 1px rgb(193, 193, 193);
+            padding: 10px;
+        }
+        .chef-special {
+            grid-column: span 2;
+        }
+
+        .item-header{
+            font-size: 22px;
+        }
+
+        .entree {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
         }
 
     </style>
@@ -29,24 +58,168 @@
             <a class="nav-item nav-link" href="contact.html">Contact Us</a>
         </div>
     </nav>
+            <div class="menu-item chef-special">
+                <div class="text-center item-header">Chef Special</div>
+                <div class="entree">
+                    <p>Sesame Shrimp w. Bird's Nest</p>
+                    <p>$13.95</p>
+                </div>
+                <div class="entree">
+                    <p>Lobster in ginger sauce and scallion</p>
+                    <p>$19.95</p>
+                </div>
+                <div class="entree">
+                    <p>Two Flavored Lamb</p>
+                    <p>$14.95</p>
+                </div>
+                <div class="entree">
+                    <p>Steamed Whole Fish</p>
+                    <p>$22.95</p>
+                </div>
+                <div class="entree">
+                    <p>Ma La Delight</p>
+                    <p>$13.95</p>
+                </div>
+                <div class="entree">
+                    <p>Peking Duck</p>
+                    <p>$25.95</p>
+                </div>
+            </div>
     <div class="menu-container">
-        <div>
-            menu item 1
+        <div class="menu-item">
+            <div class="text-center item-header">Soups</div>
+            <div class="entree">
+                <p>Wonton Soup</p>
+                <p>$5.00</p>
+            </div>
+            <div class="entree">
+                <p>Hot & Sour Soup</p>
+                <p>$2.50</p>
+            </div>
+            <div class="entree">
+                <p>Tofu Soup</p>
+                <p>$5.50</p>
+            </div>
+            <div class="entree">
+                <p>Egg Drop Soup</p>
+                <p>$5.00</p>
+            </div>
         </div>
-        <div>
-            menu item 2
+        <div class="menu-item">
+            <div class="text-center item-header">Fried Rice</div>
+            <div class="entree">
+                <p>Fried Rice</p>
+                <p>$9.95</p>
+            </div>
+            <div class="entree">
+                <p>Shrimp Fried Rice</p>
+                <p>$10.95</p>
+            </div>
+            <div class="entree">
+                <p>Jasmine Seafood Fried Rice</p>
+                <p>$11.95</p>
+            </div>
+            <div class="entree">
+                <p>House Special Fried Rice</p>
+                <p>$10.95</p>
+            </div>
         </div>
-        <div>
-            menu item 3
+        <div class="menu-item">
+            <div class="text-center item-header">Beef</div>
+            <div class="entree">
+                <p>Beef with Broccoli</p>
+                <p>$11.95</p>
+            </div>
+            <div class="entree">
+                <p>Double Mushroom Beef</p>
+                <p>$11.95</p>
+            </div>
+            <div class="entree">
+                <p>Beef with Mixed Vegetables</p>
+                <p>$11.95</p>
+            </div>
+            <div class="entree">
+                <p>Beef Szechuan</p>
+                <p>$11.95</p>
+            </div>
+            <div class="entree">
+                <p>Hunan Beef</p>
+                <p>$12.95</p>
+            </div>
+            <div class="entree">
+                <p>Sesame Beef</p>
+                <p>$12.95</p>
+            </div>
         </div>
-        <div>
-            menu item 4
+        <div class="menu-item">
+            <div class="text-center item-header">Poultry</div>
+            <div class="entree">
+                <p>Chicken with Snow Peas</p>
+                <p>$9.95</p>
+            </div>
+            <div class="entree">
+                <p>Almond Chicken</p>
+                <p>$9.95</p>
+            </div>
+            <div class="entree">
+                <p>Lemon Chicken</p>
+                <p>$9.95</p>
+            </div>
+            <div class="entree">
+                <p>Chicken Szechuan</p>
+                <p>$10.95</p>
+            </div>
+            <div class="entree">
+                <p>Curry Chicken</p>
+                <p>$10.95</p>
+            </div>
+            <div class="entree">
+                <p>General Tso's Chicken</p>
+                <p>$11.95</p>
+            </div>
         </div>
-        <div>
-            menu item 5
+        <div class="menu-item">
+            <div class="text-center item-header">Desserts</div>
+            <div class="entree">
+                <p>Key Lime Pie</p>
+                <p>$3.95</p>
+            </div>
+            <div class="entree">
+                <p>Tiramisu</p>
+                <p>$3.95</p>
+            </div>
+            <div class="entree">
+                <p>Chocolate Mousse Cake</p>
+                <p>$3.95</p>
+            </div>
+            <div class="entree">
+                <p>German Chocolate Cake</p>
+                <p>$3.95</p>
+            </div>
+            <div class="entree">
+                <p>Strawberry Cheesecake</p>
+                <p>$4.95</p>
+            </div>
+            <div class="entree">
+                <p>Mango Mousse Cake</p>
+                <p>$4.95</p>
+            </div>
         </div>
-        <div>
-            menu item 6
+        <div class="menu-item">
+            <div class="text-center item-header">Beverages</div>
+            <div class="entree">
+                <p>Cans</p>
+                <p>$1.00</p>
+            </div>
+            <div class="entree">
+                <p>Bottle</p>
+                <p>$1.95</p>
+            </div>
+            <div class="entree">
+                <p>2 Liters</p>
+                <p>$2.95</p>
+            </div>
+            
         </div>
     </div>
 
