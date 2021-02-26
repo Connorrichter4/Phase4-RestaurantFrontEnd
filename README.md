@@ -40,3 +40,21 @@ You are a web developer at a service-based web development company called Kite T
 - The source code should be pushed to your GitHub repositories. You need to document the steps and write the algorithms in the Google Docs.
 - The link of your GitHub repository is must. In order to track your task, you need to share the link of the repository. You can add a section in the Google Docs.
 - Document the step-by-step process involved in completing this task.
+
+## Examples
+
+### Homepage
+
+![homepage](https://user-images.githubusercontent.com/58124052/109329779-9d672000-7820-11eb-8f54-64546200831b.png)
+
+### Menu Page
+
+![menu](https://user-images.githubusercontent.com/58124052/109329781-9dffb680-7820-11eb-8fd9-bf112ef00f5a.png)
+
+### Contact Us Page
+
+![contact-us](https://user-images.githubusercontent.com/58124052/109329782-9dffb680-7820-11eb-8dc9-ef97d07b6df4.png)
+
+### Contact Us Success Alert
+
+![contact-success](https://user-images.githubusercontent.com/58124052/109329784-9dffb680-7820-11eb-848f-c69af470b42a.png)
